@@ -49,7 +49,7 @@ router.delete("/:id", async (req, res) => {
   });
   
 
-  //Get USER
+  //Get USER 
 
   router.get("/:id", async(req,res)=>{
       try {
