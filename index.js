@@ -19,7 +19,7 @@ mongoose
   .then(console.log("Connected to MongoDB"))
   .catch((err) => console.log(err));
 
-const PORT = 5000 || process.env.PORT;
+const PORT =  process.env.PORT || 5000;
 
 // uploading image using multer
 const storage = multer.diskStorage({
